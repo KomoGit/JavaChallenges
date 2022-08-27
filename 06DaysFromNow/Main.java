@@ -10,7 +10,7 @@ class Program{
         
         cal.add(Calendar.DATE, days);
         Date daysFromNow = cal.getTime();
-        System.out.println("Hundred days from today will be " + daysFromNow);
+        System.out.println( days + " days from today will be " + daysFromNow);
     }
 
     public static void main(String[] args) {
